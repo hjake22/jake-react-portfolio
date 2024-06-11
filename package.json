@@ -2,6 +2,7 @@
   "name": "react-portfolio-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hjake22.github.io/jake-react-portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
@@ -29,6 +30,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
